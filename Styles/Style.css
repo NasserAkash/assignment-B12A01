@@ -37,7 +37,7 @@ cursor: pointer;}
 
 /* header */
 .image {
-    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-image: url(/Styles/Assets/Hero-bg.png);
     max-width: 1920px;
     height: 700px;
     margin: 0 auto;
