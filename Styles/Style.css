@@ -104,4 +104,41 @@ nav ul li {
 
 .sec-1-p {
     font-size: 18px;
+    color: #78787a;
+}
+
+/* Section 2 */
+.section-2 {
+    background-color: #4d47ff52;
+    border-radius: 15px;
+}
+
+.section-2 h1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.sec-2-card {
+
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px
+    ;
+
+}
+
+.sec-2-card h1 {
+    font-size: 50px;
+    color: #4E47FF;
+    margin: 0;
+    padding: 0;
+}
+
+.sec-2-card p {
+    color:gray ;
+    text-align: center;
+
 }
