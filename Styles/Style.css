@@ -147,7 +147,9 @@ nav ul li {
 }
 /* Section 3 */
 .sec-3-div-1{display:flex;
-gap: 100px;}
+    
+gap: 300px;
+padding-left: 150px;}
 
 .section-3 {
 padding: 50px 20px;
@@ -162,10 +164,34 @@ flex-direction: column;
 .sec-3-form{width: 50%  ;}
 
 
-input[type="text"], input[type="email"], textarea{
-    height: 50px;
+input[type="text"],
+input[type="email"],
+textarea {
+    height: auto;
     border-radius: 5px;
-    background-color: white;
+    background-color: #f7f9fa;
     width: 100%;
     margin-bottom: 24px;
+    padding: 14px 18px;
+    border: none;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 1em;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+::placeholder {
+    color: #a0a0a0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: 1px solid #93c5fd;
+    background-color: #ffffff;
+    outline: none;
 }
