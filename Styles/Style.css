@@ -29,8 +29,11 @@ main {
     color: white;
     padding: 12px 36px;
     border-radius: 10px;
-    border: none
+    border: none    
 }
+.btn-primary:hover {
+    background-color: #030149;
+cursor: pointer;}
 
 /* header */
 .image {
@@ -141,4 +144,28 @@ nav ul li {
     color:gray ;
     text-align: center;
 
+}
+/* Section 3 */
+.sec-3-div-1{display:flex;
+gap: 100px;}
+
+.section-3 {
+padding: 50px 20px;
+background-color: #f0f4f8;
+display: flex;
+flex-direction: column;
+}
+
+.sec-3-head{
+    font-size: 90px;
+}
+.sec-3-form{width: 50%  ;}
+
+
+input[type="text"], input[type="email"], textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 24px;
 }
