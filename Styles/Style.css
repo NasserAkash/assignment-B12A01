@@ -37,12 +37,10 @@ cursor: pointer;}
 
 /* header */
 .image {
-background-image: url('../../Assets/Hero-bg.png');
-background-size: cover;
-background-position: center;
-max-width: 100%;
-height: 700px;
-margin: 0 auto;
+    background-image: url(/Assets/Hero-bg.png);
+    max-width: 1920px;
+    height: 700px;
+    margin: 0 auto;
 }
 
 /* Nav style */
@@ -74,7 +72,7 @@ nav ul li {
     align-items: center;
 }
 
-.banner-constant {
+.banner-contant {
     font-size: 65px;
     font-weight: bold;
     display: flex;
