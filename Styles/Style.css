@@ -37,7 +37,7 @@ cursor: pointer;}
 
 /* header */
 .image {
-background-image: url("/Assets/Hero-bg.png");
+background-image: url('../../Assets/Hero-bg.png');
 background-size: cover;
 background-position: center;
 max-width: 100%;
@@ -149,9 +149,7 @@ nav ul li {
 }
 /* Section 3 */
 .sec-3-div-1{display:flex;
-    
-gap: 300px;
-padding-left: 150px;}
+gap: 100px;}
 
 .section-3 {
 padding: 50px 20px;
@@ -166,34 +164,10 @@ flex-direction: column;
 .sec-3-form{width: 50%  ;}
 
 
-input[type="text"],
-input[type="email"],
-textarea {
-    height: auto;
+input[type="text"], input[type="email"], textarea{
+    height: 50px;
     border-radius: 5px;
-    background-color: #f7f9fa;
+    background-color: white;
     width: 100%;
     margin-bottom: 24px;
-    padding: 14px 18px;
-    border: none;
-    box-sizing: border-box;
-    color: #333333;
-    font-size: 1em;
-}
-
-textarea {
-    min-height: 140px;
-    resize: vertical;
-}
-
-::placeholder {
-    color: #a0a0a0;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-    border: 1px solid #93c5fd;
-    background-color: #ffffff;
-    outline: none;
 }
