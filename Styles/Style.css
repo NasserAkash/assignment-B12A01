@@ -211,3 +211,31 @@ color: grey;
 }
 .sec-4-ul{padding:0px 700px;}
 
+/* review section */
+
+.sec-rev{margin: 40px 0;}
+
+.sec-rev h1 {font-size: 42px;
+font-weight:bold;
+text-align: center;}
+
+.review-cls{ background-color: antiquewhite;
+padding:20px;
+width: 250px;
+border-radius: 30px;}
+
+.avatar{display: flex;
+align-items: center;
+gap: 10px;
+
+}
+
+.avatar img {height: 40px;
+width: 40px;
+border-radius:100%;
+}
+.avatar h5, h6{padding: 0;
+margin: 0;}
+.review-flex{display: flex;
+justify-content: space-between;
+align-items: center;}
